@@ -129,6 +129,17 @@ npm run dev     //运行项目
 
 ![](http://one17356s.bkt.clouddn.com/18-9-29/79280779.jpg)
 
+# 代码推送到GitHub
+```
+ GitHub新建 一个项目  vue-demo
+ 和本地项目建立连接
+ git remote add origin  https://github.com/JKAK47/vue-demo.git
+ 
+ 推送到GitHub
+ 
+ git push -u origin master
+```
+
 # 参考：
 ## node + npm 配置  vue 开发环境
  [Node.js安装及环境配置之Windows篇](https://blog.csdn.net/qq_26562641/article/details/72235585)
