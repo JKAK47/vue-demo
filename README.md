@@ -69,7 +69,7 @@ npm config set prefix "D:\Dev\NodeJS\repo\node_global"
 
 新增 ： NODE_PATH 环境变量 `NODE_PATH = D:\Dev\NodeJS\repo\node_global\node_modules` ; 路径即是 prefix参数/node_modules
 
-修改 path 环境变量新增 prefix 参数设置的值 `D:\Dev\NodeJS\node_global\`。
+修改 path 环境变量新增 prefix 参数设置的值 `D:\Dev\NodeJS\repo\node_global`。
 
 ### 安装module 
 ```
@@ -93,7 +93,7 @@ npm config delete registry
 
 # 安装Vue 脚手架开发环境
 ```
-// 第一步 安装Vue
+// 第一步 安装Vue 模块
 npm install -g vue --verbose
 // 第二步 安装 vue-cli
 npm install -g vue-cli  --verbose
@@ -106,7 +106,7 @@ npm uninstall -g vue-cli //卸载模块
 
 # 创建基于 webpack模板  的 vue 项目
 ```
-// 创建一个基于 webpack 模板的新项目, vue-demo 是项目名字
+// 创建一个基于 webpack 模板格式(新建框架基本文件)的新项目, vue-demo 是项目名字
 vue init webpack vue-demo
 
 ```
@@ -132,10 +132,10 @@ npm run dev     //运行项目
 # 代码推送到GitHub
 ```
  GitHub新建 一个项目  vue-demo
- 和本地项目建立连接
+ 和本地git项目建立连接
  git remote add origin  https://github.com/JKAK47/vue-demo.git
  
- 推送到GitHub
+ 推送到 GitHub
  
  git push -u origin master
 ```
